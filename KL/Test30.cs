@@ -43,13 +43,13 @@ namespace KL
 			int[] Sr3 = new int[13];
 			for (int i = 0; i < 4; i++)
 			{
-				for (int b = 0; b < 13; b++) // S = 00.000000000000
+				for (int b = 0; b < 13; b++)
 				{
 					S[b] = 0;
 				}
 				if (mk[5] == 1)
 				{
-					for (int c = 0; c < 10; c++) // dodavanya za monulem 2
+					for (int c = 0; c < 10; c++) 
 					{
 						S[c] += me[c];
 					}
@@ -132,9 +132,7 @@ namespace KL
 
         static string Test30_2(string line)
         {
-
-
-            return "";
+            return "***";
         }
     }
 }

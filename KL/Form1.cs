@@ -17,7 +17,6 @@ namespace KL
             InitializeComponent();
         }
 
-
         public delegate string CalculateTest(string test);
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -35,14 +34,6 @@ namespace KL
             }
             return "***";
         }
-
-
-
-
-      
-
-
-
 
         Dictionary<string, CalculateTest> calcTest = new Dictionary<string, CalculateTest>()
         {
@@ -89,9 +80,7 @@ namespace KL
             { "Яку найменшу кількість K разом виводів адреси та даних повинно мати ОЗП з організацією" ,                                            Test26.Test},
             { "Визначити, скільки найменше виходів K має комбінаційна схема автомата" ,                                                             Test28.Test},
             { "Помножувач здійснює операцію над 16-ковими цілими і додатніми" ,                                                                     Test30.Test},
-            { "Формат чисел з рухомою комою складється " ,                                                                                          Test30.Test},
-
-
+            { "Формат чисел з рухомою комою складється " ,                                                                                          Test30.Test}
         };
     }
 }
