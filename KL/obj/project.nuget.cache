@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dTjjJOx9q+epyqGX7vWUbmk1SfHnGHbwqFTFM/zpC+hV88/Jmv1EjzJmYD0Gw3cP0bbXGqw1aI5nGE3JUc26rg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\s2a0s\\source\\repos\\KL\\KL\\KL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s2a0s\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
